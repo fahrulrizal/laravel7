@@ -1,0 +1,55 @@
+body{
+	margin-top: 50px;
+	background: #eee;
+}
+
+#wrapper{
+	padding-left: 255px;
+}
+
+#page-wrapper{
+	padding-left: 5px 15px;
+	width: 100%;
+}
+.navbar{
+	background: #0a3051;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+
+.side-nav{
+	margin-left: -225px;
+	left: 225px;
+	width: 225px;
+	top: 50px;
+	position: fixed;
+	background: #fff;
+	height: 100%;
+	overflow-y: auto;
+
+}
+.side-nav li a{
+	width: 225px;
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav .active a{
+	background: #0a3051;
+	color: #fff;
+}
+.navbar-collapse {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+} 
+.content form {
+	background: #fff;
+	padding: 20px 20px;
+}  
+table tr td{
+	background: #fff;	
+}
+table thead{
+	background:#0a3051;
+	color: #fff; 
+
+}

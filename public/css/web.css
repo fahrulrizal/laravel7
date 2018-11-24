@@ -1,0 +1,95 @@
+html, body{
+	width: 100%;
+	height: 100%;
+}
+.navbar{
+	background:#0a3051;
+	padding: 0.5% 0;
+	font-size: 15px;
+	border: 1px solid #0a3051;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+.navbar-default .navbar-nav li a{
+	color: #fff;
+}
+
+#home{
+	background-image: url('../img/hd-1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.landing-text h1{
+	color: #fff;
+	font-size: 500%;
+	font-weight: 700;
+}
+.landing-text h3{
+	color: #fff;
+}
+.padding{
+	padding: 80px 0;
+}
+.padding img{
+	width: 100%;
+}
+
+#fixed{
+	background-image: url('../img/bg-3.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+#fixed h2{
+	color: #fff;
+}
+hr {
+	width: 20%;
+	border: 2px solid #fff;
+}
+#fixed .thumbnail{
+	border-radius: 10px;
+}
+
+footer{
+	background-image: url('../img/bgfooter.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5% 5% 10% 5%;
+	width: 100%;
+	color: #fff;
+
+}
+.fa{
+	padding: 15px;
+}
+.icon{
+	max-width: 200px;
+}
+.icon2{
+	max-width: 100px;
+}
+
+@media(max-width: 768px){
+	.landing-text h1{
+		font-size: 300%;
+	}
+} 
